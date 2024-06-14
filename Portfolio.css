@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to bottom ,rgb(53, 2, 53),rgb(4, 7, 71))
+    /* background: linear-gradient(to bottom, #e98707, black); */
+}
+a {
+    text-decoration: none;
+}
+.imagetext {
+    width: 50%;
+    height: 50px;
+    transition: 2s;
+}
+
+
+
+.logo {
+    cursor: pointer;
+    transition: 2s;
+}
+.logo:hover {
+    transform: rotate(180deg);
+}
+
+.myname {
+    color: silver;
+    font-family: 'Dancing Script', cursive;
+}
+
+.myname:hover {
+    background: linear-gradient(to right ,purple ,whitesmoke);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.navlink {
+    color: silver;
+}
+.navlink:hover {
+    color :whitesmoke ;
+    border-bottom: 2px solid aqua;
+    cursor: pointer;
+}
+
+.skill-section {
+    width: 100%;
+    height : 50px ;
+    color: rgba(0, 0, 0, 0.486);
+    text-transform: uppercase;
+    background: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-section p ,
+.phone-section p ,
+.comment-section p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                           photo and information */
+
+.loader {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #090633, black);
+    border-radius: 20px;
+    transition: 1s;
+}
+.loader:hover {
+background: linear-gradient(to bottom, purple, black);
+}
+
+.photo-info {
+    width: 50%;
+    height: 100%;
+}
+
+.color{
+    width: 50%;
+    height: 100%;
+}
+
+.grad {
+    /* margin-right: 100px; */
+    width: 300px;
+    height: 300px;
+    color: red;
+    background: linear-gradient( 60deg, red , blue);
+    border-radius: 70% 30% 25% 75% / 38% 37% 63% 62%  ;
+    
+    animation-name: grad ;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal ;
+    text-shadow: 0px 2px 10px red;
+    /* animation : grad 4s linear infinite 2 normal both ; */
+    /* animation-timing-function: ; */
+    /* animation-delay:  ; */
+    /* animation-fill-mode: ; */
+}
+
+@keyframes grad {
+    0% {
+        transform: translateY(-20%);
+    }
+    50% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(-20%);
+    }
+}
+.my_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.text {
+    cursor: pointer;
+    color: whitesmoke;
+    text-shadow: 0px 2px 10px ;
+}
+
+
+
+
+
+
+/*                                                       cards */
+.cards {
+    height: 350px;
+}
+
+.cards_img:hover {
+    opacity: .5;
+
+    
+}
+.cards_img {
+    border: none;
+    outline: none;
+    border-radius: 20px 20px 0 0;
+    transition: .5s;
+}
+.cards_img::after{
+    content: " ";
+    position: absolute;
+    color: blue;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    z-index: 5;
+}
+.cards h5 {
+    border-radius: 0 0 20px 20px;
+    background-color: rgb(13, 13, 68);
+}
+
+
+
+
+
+
+
+
+/*                                                     section-title */
+.skills-name {
+    width: 100%;
+    /* height: 100px; */
+    background-color: #282c34;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+}
+
+.skilll {
+    width: fit-content;
+    height: fit-content;
+    font-size: 70px;
+    color: #61dafb;
+    cursor: pointer;
+    transition: 1s;
+    text-transform: uppercase;
+    margin: 0;
+}
+.skilll:hover {
+    color: #61dafba6 ;
+}
+
+/*                                             languages */
+.Languages {
+    height: fit-content;
+    width: 100%;
+}
+
+.Language {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 1s;
+}
+.progress{
+    width: 50%;
+    height: 25px;
+    transition: 1s;
+} 
+.progress span {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_lang {
+    width: 50%;
+    height: 30px;
+}
+.size-lang {
+    font-size: 25px;
+    
+}
+
+
+/*                                   projects */
+
+.projects {
+    width: 100%;
+    height: fit-content;
+}
+.project {
+    width: 100%;
+    height: 100%;
+}
+.pro {
+    width: 250px;
+    height: 300px;
+    /* margin-top: 50px; */
+}
+
+.pro .video video{
+    width: 250px;
+    height: 150px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+}
+
+.textByVideo {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.textByVideo p {
+    margin: 0;
+}
+
+
+/*                                    background-color */
+/* .Navbarr {
+    background-color: ;
+} */
+
+
+
+
+
+
+
+
+.up {
+    position: fixed;
+    padding: 10px;
+    background-color: purple;
+    bottom: 10px;
+    right: -50px;
+    border-radius: 50%;
+    border: none;
+    color: rgb(4, 7, 71);
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: 1s;
+
+}
+.up.show {
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*                                                 pio-Section */
+.End-Section {
+    width:100% ;
+    height: 30px ;
+    background-color: rgb(0, 26, 255);
+}
+.onne {
+    color: white ;
+    width: 100%;
+    height: 100%;
+}
+.end-section-1 {
+    color: whitesmoke ;
+    height: 100%;
+}
+
+.para {
+    height: 100%;
+}
+
+.mo {
+    color: rgb(233, 17, 204);
+    font-weight: 900;
+    height: 100%;
+
+}
+.end-section-2 {
+    display: flex;
+    padding-right: 20px;
+}
+.end-section-2 a {
+    padding-right: 10px  ;
+}

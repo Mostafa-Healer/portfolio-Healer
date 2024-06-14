@@ -1,0 +1,231 @@
+/* small */
+@media (max-width: 375px) {
+
+    .myname {
+        font-size: 10px;
+        padding-top:7px ;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-title {
+        font-size: 10px;
+    }
+    .cont-port {
+        height: 300px;
+        
+    }
+    .grad {
+        /* width: 100px;
+        height: 100px; */
+        display: none;
+    }
+    .cont-grad {
+        width: 0;
+    }
+    .my_photo {
+        width: 200px;
+        height: 200px;
+    }
+    .text {
+        font-size: 20px;
+        /* margin-top: 5px; */
+    }
+    .photo-info {
+        width: 100%;
+        height: 100%;
+        margin-right: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .myname {
+        font-size: 15px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-title {
+        font-size: 15px;
+    }
+    .grad {
+        width: 150px;
+        height: 150px;
+    }
+
+    .progress {
+        width: 50%;
+    }
+    .size-lang {
+        font-size: 20px;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: row;
+    }
+    .textByVideo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 50px;
+
+    }
+
+    .pro {
+        height: 200px;
+        width: 100%;
+    }
+    .skilll {
+        font-size: 20px;
+    }
+    .skills-name {
+        height: 30px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium */
+@media (min-width: 768px) {
+    .myname {
+        font-size: 15px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-title {
+        font-size: 15px;
+    }
+    .grad {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lg */
+@media (min-width: 992px) {
+    .myname {
+        font-size: 20px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-title {
+        font-size: 20px;
+    }
+    .grad {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Xl */
+@media (min-width: 1300px) {
+    .myname {
+        font-size: 20px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .grad {
+        width: 300px;
+        height: 300px;
+    }
+}
